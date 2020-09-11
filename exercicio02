@@ -1,0 +1,27 @@
+/* Faça um programa que calcule e exiba a soma de dois números inteiros.
+Caso o valor  da soma seja acima de 100 o programa deve escrever que o 
+valor está acima do limite, do contrário escreva que ele está dentro do
+limite*/
+
+
+public class Soma {
+    public static void main(String args[]) {
+      int valor1 = 50;
+      int valor2 = 30;
+      int resultado = valor1 + valor2;
+
+      System.out.println("Resultado da soma = " + resultado);
+      
+      if (resultado > 100){
+            System.out.println("Valor acima do limite de 100"); 
+            System.out.println("****************************");           
+      }
+      
+      if (resultado <= 100){
+            System.out.println("Valor dentro do limite de 100");
+      }
+  
+      System.out.print("Fim de programa !! ");
+      
+    }
+}
