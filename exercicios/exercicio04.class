@@ -11,5 +11,5 @@ public class compara{
     else{
       System.out.print("Valor negativo ");
     }
-    }
+}
 }

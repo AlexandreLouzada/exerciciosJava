@@ -14,7 +14,7 @@ public class Soma {
       
       if (resultado > 100){
             System.out.println("Valor acima do limite de 100"); 
-            System.out.println("****************************");           
+        
       }
       
       if (resultado <= 100){
