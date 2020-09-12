@@ -1,0 +1,15 @@
+public class compara{
+     public static void main(String args[]) {
+      int valor=0;
+
+      if (valor > 0){
+           System.out.println("Valor positivo"); 
+      }
+      else if (valor == 0){
+           System.out.println("Valor igual a 0");
+      }
+    else{
+      System.out.print("Valor negativo ");
+    }
+    }
+}
